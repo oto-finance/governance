@@ -25,7 +25,7 @@ const error = ref(false);
       :class="[
         space?.skin ? `${space?.skin} bg-[color:var(--bg-color)]` : 'bg-white'
       ]"
-      class="rounded-full inline-block !align-middle leading-none"
+      class=" inline-block !align-middle leading-none"
     />
     <UiBlockie
       v-else
